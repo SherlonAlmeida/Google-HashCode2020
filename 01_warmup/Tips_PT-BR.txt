@@ -1,0 +1,11 @@
+Percorre o vetor de trás para frente várias vezes, sempre passando uma posição a menos do vetor de trás para frente, e adiciona os valores enquanto o somatório não ultrapassar M. Se a solução atual for melhor que a anterior, armazena ela. Caso alguma solução seja igual a M, para a execução, senão irá executar até o final e apresentará o melhor resultado obtido.
+
+Observação:
+Este algoritmo não apresenta resultado ótimo pois é guloso.
+Ou seja, considera apenas as respostas com valores contíguos, uma solução local.
+Não passando no seguinte caso, por exemplo:
+
+24 7
+2 3 4 5 6 8 9
+
+Pois apresentará 23 = 9+8+6, enquanto a melhor reposta será 24 = 9+8+5+2
